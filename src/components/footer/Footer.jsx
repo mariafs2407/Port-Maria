@@ -12,7 +12,7 @@ const footer = () => {
                 <a href="https://wa.me/+51947993542" target='_blank'><img src={wssp} alt="" /></a>
                 <a href="mailto:mariafs2407@gmail.com" target='_blank'><img src={correo} alt="" /></a>
             </div>
-            <p class="footer__copy">
+            <p className="footer__copy">
                 2023 <span >©</span>Todos los derechos reservados
             </p>
         </footer>

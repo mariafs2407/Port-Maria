@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer'
 import Inicio from './components/Inicio'
 import './Main.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Header/>
