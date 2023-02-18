@@ -1,7 +1,13 @@
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 30px;
+* {    
+    font-size: 18px;    
+    font-family: 'Poppins', sans-serif;    
+    color: #401801;
+    margin: 0
+    
+}
+.letraTitulo {
+    color: #260B01;
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+
 }

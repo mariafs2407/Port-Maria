@@ -1,0 +1,99 @@
+.container-proy {
+    margin-top: -10%;
+}
+
+.container-proy .pos {
+    text-align: center;
+}
+
+.container-proy .cajapadre-proy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+/* cards */
+.cajapadre-proy .contenedor-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-card .figure {
+    position: relative;
+    height: 240px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(109, 100, 108, 0.5);
+    cursor: pointer;
+}
+
+/* card -imagen */
+.contenedor-card .figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-card .figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 14, 5, 0.781);
+    transition: all 500ms ease-out;
+    /* transicion suave */
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor-card .figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* card texto titulo y contenido */
+.contenedor-card .figure:hover>.capa h1 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor-card .figure .capa h1 {
+    color: #fff;
+    margin-top: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor-card .figure .capa .card__body {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* card boton */
+.contenedor-card .figure .capa .button {
+    background-color: #fff;
+    color: #fcb69f;
+    padding: 5px;   
+    border: 2px solid #fcb69f;
+    transition: color .5s;
+    font-size: 17px;
+    border-radius: 6px;    
+    text-decoration: none;
+}
+
+.contenedor-card .figure .capa .button:hover {
+    background-color: #fcb69f;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
+
