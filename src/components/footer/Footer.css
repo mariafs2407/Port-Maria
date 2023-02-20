@@ -36,7 +36,7 @@
 }
 
 /* ----------------------------------- */
-@media screen and (max-width:330px){
+@media screen and (max-width:500px){
     .cont-footer .link-footer {
         width: 50%;
         display: grid;
