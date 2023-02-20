@@ -34,3 +34,14 @@
     color: #fff;
     font-size: 20px;
 }
+
+/* ----------------------------------- */
+@media screen and (max-width:330px){
+    .cont-footer .link-footer {
+        width: 50%;
+        display: grid;
+        margin: 20px auto;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

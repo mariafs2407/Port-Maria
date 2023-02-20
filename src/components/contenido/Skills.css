@@ -37,3 +37,28 @@
     -webkit-transform: scale3d(1.5, 1.5, 0.3);
     -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
+/* ----------------------------------- */
+@media screen and (max-width:630px){
+
+    .cajapadreS .efectoS{
+        visibility: hidden;
+    }
+    .cajapadreS .cajapadre-skill{
+        padding-top: 10%;
+    }
+    .container-skills{        
+        grid-template-columns: repeat(5,20%);
+    }
+    
+}
+@media screen and (max-width:330px){
+
+    .container-skills{        
+        grid-template-columns: repeat(4,25%);
+    }
+    .container-skills .caja img{
+        width: 90%;        
+    } 
+
+
+}

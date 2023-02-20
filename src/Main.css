@@ -1,5 +1,5 @@
 * {    
-    font-size: 18px;    
+    font-size: 20px;    
     font-family: 'Poppins', sans-serif;    
     color: #401801;
     margin: 0
@@ -10,4 +10,35 @@
     font-size: 35px;
     font-family: 'Merriweather', serif;
 
+}
+/* ------------------- */
+
+@media screen and (max-width:1040px){
+    * { 
+        font-size: 16px;
+    }
+
+    .letraTitulo{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:620px){
+
+    * { 
+        font-size: 14px;
+    }
+
+    .letraTitulo{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:330px){
+
+    * { 
+        font-size: 10px;
+    }
+    .letraTitulo{
+        font-size: 15px;
+    }
 }

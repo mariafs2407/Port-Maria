@@ -31,7 +31,7 @@
 
 .container .nav li .li {
     text-decoration: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: #fff;
 }
 
@@ -57,7 +57,7 @@
     margin-right: 5px;
 }
 
-.container .nav li .icn{
+.container .idioma .icn{
     border: #fcb69f;
     background-color: #fcb69f;
     margin-right: 3px;
@@ -66,3 +66,44 @@
 .efecto {
     margin-top: 1%;    
 }
+
+/* --------------------------------------- */
+
+@media screen and (max-width:1000px){
+    
+    .container .nav li {
+        padding:auto;
+        width: 50px;
+    }
+    .container .nav li .li {
+        visibility: hidden;
+    }
+    .container .nav li .float{
+        visibility: visible;       
+    }   
+}
+
+@media screen and (max-width:630px){
+
+    .efecto{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:330px){
+    .contHeader .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;      
+    }
+    .container .logo img{
+        width:40% ;
+        padding-left: 30%;
+    }
+    .container .idioma .icn{
+        margin-top: -20%;
+    
+    }
+}
+
