@@ -57,23 +57,12 @@
     margin-right: 5px;
 }
 
-.container .nav li .menu-select {
-    height: 100%;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 1.5px 1px;
-    border-radius: 10px;
-    border: 2px solid #260B01;
-    color: #fff;
-    background: transparent;
-}
+.container .nav li .icn{
+    border: #fcb69f;
+    background-color: #fcb69f;
+    margin-right: 3px;
 
-.container .nav li .menu-select>option {
-    background: #fcb69f;
-    margin: 0;
-    border: none;
 }
-
 .efecto {
     margin-top: 1%;    
 }

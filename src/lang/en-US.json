@@ -1,0 +1,20 @@
+{
+    "menu.Home":"Home",
+    "menu.About":"About",
+    "menu.Skills":"Skills",
+    "menu.Projects":"Projects",
+
+    "About.Titulo": "I'm {name}",
+    "About.Contenido":"Student of the Software Development career, at the moment I am studying the 5th cycle of my career, I am an organized, responsible, creative person, with the passion of learning new technologies and new challenges.",
+
+    "Skills.Titulo":"Skills",
+
+    "Projects.Titulo":"Projects",
+    "Projects1.Titulo":"Cryptocurrency page",
+    "Projects1.Contenido":"With React, css and grid.",
+    "Projects.Boton": "See more",
+    "Projects2.Titulo":"Page in progress",
+    "Projects2.Contenido":"...",
+
+    "Footer.Derechos": "All rights reserved"
+}

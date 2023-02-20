@@ -3,18 +3,19 @@ import About from './contenido/About';
 
 import Skills from './contenido/Skills';
 import Projects from './contenido/Projects';
-import { IntlProvider } from 'react-intl';
+import { IntlProvider, FormattedMessage } from 'react-intl';
+import MensajesIngles from './../lang/en-US';
 
 
 const Inicio = () => {
     return (
-        <IntlProvider>
-            <div id='top'>
-                <About />
-                <Skills />
-                <Projects />
-            </div>
-        </IntlProvider>
+
+        <div id='top'>
+            <About />
+            <Skills />
+            <Projects />
+        </div>
+
 
     );
 }

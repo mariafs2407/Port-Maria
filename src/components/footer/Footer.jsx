@@ -2,7 +2,8 @@ import React from 'react';
 import wssp from '../assets/whatsapp.png';
 import gith from '../assets/github.png';
 import correo from '../assets/correo.png';
-import './Footer.css'
+import './Footer.css';
+import { FormattedMessage } from 'react-intl';
 
 const footer = () => {
     return (
@@ -13,7 +14,11 @@ const footer = () => {
                 <a href="mailto:mariafs2407@gmail.com" target='_blank'><img src={correo} alt="" /></a>
             </div>
             <p className="footer__copy">
-                2023 <span >©</span>Todos los derechos reservados
+                2023 <span >©</span>
+                <FormattedMessage
+                    id='Footer.Derechos'
+                    defaultMessage="Todos los derechos reservados"
+                />
             </p>
         </footer>
     );

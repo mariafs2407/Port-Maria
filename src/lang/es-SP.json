@@ -1,0 +1,21 @@
+{
+    "menu.Home":"Inicio",
+    "menu.About":"Sobre mí",
+    "menu.Skills":"Habilidades",
+    "menu.Projects":"Proyectos",
+
+    "About.Titulo": "Soy {name}",
+    "About.Contenido":"Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el 5 ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos.",
+
+    "Skills.Titulo":"Habilidades",
+
+    "Projects.Titulo":"Proyectos",
+    "Projects1.Titulo":"Página de criptomonedas",
+    "Projects1.Contenido":"Con React , css y grid.",
+    "Projects.Boton": "Ver más",
+    "Projects2.Titulo":"Página en proceso",
+    "Projects2.Contenido":"...",
+
+    "Footer.Derechos": "Todos los derechos reservados"
+
+}
