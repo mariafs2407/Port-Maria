@@ -8,13 +8,17 @@
     "About.Contenido":"Student of the Software Development career, at the moment I am studying the 5th cycle of my career, I am an organized, responsible, creative person, with the passion of learning new technologies and new challenges.",
 
     "Skills.Titulo":"Skills",
+    "Projects.Boton": "See more",
 
     "Projects.Titulo":"Projects",
     "Projects1.Titulo":"Cryptocurrency page",
     "Projects1.Contenido":"With React, css and grid.",
-    "Projects.Boton": "See more",
-    "Projects2.Titulo":"Page in progress",
-    "Projects2.Contenido":"...",
+    
+    "Projects2.Titulo":"rick and morty page",
+    "Projects2.Contenido":"With React, css, rick and morty api",
+
+    "Projects3.Titulo":"Page in Process",    
+    "Projects3.Contenido":"...",
 
     "Footer.Derechos": "All rights reserved"
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import p1 from '../assets/proyectos/p1.png';
+import p2 from '../assets/proyectos/p2.png';
 import img from '../assets/img.jpg';
 import './Projects.css'
 import { FormattedMessage } from 'react-intl';
@@ -43,7 +44,7 @@ const Projects = () => {
                 </div>
                 <div className='contenedor-card'>
                     <div className='figure'>
-                        <img src={img} alt="" />
+                        <img src={p2} alt="" />
                         <div className='capa'>
                             <h1>
                                 <FormattedMessage
@@ -57,7 +58,9 @@ const Projects = () => {
                                     defaultMessage="..."
                                 />
                             </div>
-                            <a className='button' >
+                            <a className='button' 
+                                href='https://api-rick-morty-eight.vercel.app/'
+                                target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
@@ -71,13 +74,13 @@ const Projects = () => {
                         <div className='capa'>
                             <h1>
                                 <FormattedMessage
-                                    id="Projects2.Titulo"
+                                    id="Projects3.Titulo"
                                     defaultMessage="Página en proceso"
                                 />
                             </h1>
                             <div className="card__body">
                                 <FormattedMessage
-                                    id="Projects2.Contenido"
+                                    id="Projects3.Contenido"
                                     defaultMessage="..."
                                 />
                             </div>

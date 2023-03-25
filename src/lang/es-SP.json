@@ -10,11 +10,19 @@
     "Skills.Titulo":"Habilidades",
 
     "Projects.Titulo":"Proyectos",
+    "Projects.Boton": "Ver más",
+
     "Projects1.Titulo":"Página de criptomonedas",
     "Projects1.Contenido":"Con React , css y grid.",
-    "Projects.Boton": "Ver más",
-    "Projects2.Titulo":"Página en proceso",
-    "Projects2.Contenido":"...",
+    
+    
+    "Projects2.Titulo":"Página de Rick y morty",
+    "Projects2.Contenido":"Con React,css, api de rick y morty",
+
+    "Projects3.Titulo":"Pagina en Proceso",   
+    "Projects3.Contenido":"...",
+
+
 
     "Footer.Derechos": "Todos los derechos reservados"
 
