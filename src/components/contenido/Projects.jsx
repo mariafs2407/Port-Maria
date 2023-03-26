@@ -1,6 +1,7 @@
 import React from 'react';
 import p1 from '../assets/proyectos/p1.png';
 import p2 from '../assets/proyectos/p2.png';
+import p3 from '../assets/proyectos/p2.png';
 import img from '../assets/img.jpg';
 import './Projects.css'
 import { FormattedMessage } from 'react-intl';
@@ -70,7 +71,7 @@ const Projects = () => {
                 </div>
                 <div className='contenedor-card'>
                     <div className='figure'>
-                        <img src={img} alt="" />
+                        <img src={p3} alt="" />
                         <div className='capa'>
                             <h1>
                                 <FormattedMessage
