@@ -1,7 +1,7 @@
 import React from 'react';
 import p1 from '../assets/proyectos/p1.png';
 import p2 from '../assets/proyectos/p2.png';
-import p3 from '../assets/proyectos/p2.png';
+import p3 from '../assets/proyectos/p3.png';
 import img from '../assets/img.jpg';
 import './Projects.css'
 import { FormattedMessage } from 'react-intl';
@@ -59,7 +59,7 @@ const Projects = () => {
                                     defaultMessage="..."
                                 />
                             </div>
-                            <a className='button' 
+                            <a className='button'
                                 href='https://api-rick-morty-eight.vercel.app/'
                                 target="_blank">
                                 <FormattedMessage
@@ -85,7 +85,9 @@ const Projects = () => {
                                     defaultMessage="..."
                                 />
                             </div>
-                            <a className='button'>
+                            <a className='button'
+                                href='https://github.com/mariafs2407/proy-escritorio'
+                                target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
