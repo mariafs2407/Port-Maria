@@ -1,21 +1,29 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import './Header.css';
 import logo from '../assets/logo.png';
-import hogar from '../assets/hogar.png';
-import pro from '../assets/pro.png';
-import habilidad from '../assets/habilidad.png';
-import perfil from '../assets/perfil.png';
-import lenguaje from '../assets/lenguaje.png';
-import peru from '../assets/peru.png';
-import ingles from '../assets/ingles.png';
-import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import { langContext } from '../../context/langContext';
-
+// importacion de iconos
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRocket, faHouse, faUser, faBrain } from '@fortawesome/free-solid-svg-icons';
+import { faToggleOff } from '@fortawesome/free-solid-svg-icons';
+import { faToggleOn } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 
     const idioma = useContext(langContext);
+
+    const [idiomaActual, setIdiomaActual] = useState('es-SP');
+
+    const toggleIdioma = () => {
+        if (idiomaActual === 'es-SP') {
+            setIdiomaActual('en-US');
+            idioma.establecerLenguaje('en-US');
+        } else {
+            setIdiomaActual('es-SP');
+            idioma.establecerLenguaje('es-SP');
+        }
+    };
 
     return (
         <div className='contHeader'>
@@ -26,7 +34,7 @@ const Header = () => {
                 <ul className='nav'>
                     <li>
                         <a className='li ' href="#top">
-                            <img className='float' src={hogar} />
+                            <FontAwesomeIcon className='float' icon={faHouse} bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="text"
                                 id='menu.Home'
                                 defaultMessage="Inicio"
@@ -36,7 +44,7 @@ const Header = () => {
                     {/* about */}
                     <li>
                         <a className='li ' href="#about">
-                            <img className='float' src={perfil} />
+                            <FontAwesomeIcon icon={faUser} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="text"
                                 id='menu.About'
                                 defaultMessage="Sobre mí"
@@ -46,7 +54,7 @@ const Header = () => {
                     {/* skills */}
                     <li>
                         <a className='li' href="#skills">
-                            <img className='float' src={habilidad} />
+                            <FontAwesomeIcon icon={faBrain} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="text"
                                 id="menu.Skills"
                                 defaultMessage="Habilidades"
@@ -56,7 +64,7 @@ const Header = () => {
                     {/* projects */}
                     <li>
                         <a className='li ' href="#projects">
-                            <img className='float' src={pro} />
+                            <FontAwesomeIcon icon={faRocket} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="text"
                                 id="menu.Projects"
                                 defaultMessage="Proyectos"
@@ -65,14 +73,11 @@ const Header = () => {
                     </li>
                     {/* idioma */}
                 </ul>
+
                 <div className='idioma'>
-                    <button className='icn'
-                        onClick={() => idioma.establecerLenguaje('es-SP')}>
-                        <img src={peru} />
-                    </button>
-                    <button className='icn'
-                        onClick={() => idioma.establecerLenguaje('en-US')}>
-                        <img src={ingles} />
+                    <button className='icn' onClick={toggleIdioma}>
+                        <FontAwesomeIcon icon={idiomaActual === 'es-SP' ? 
+                        faToggleOff : faToggleOn} size="2xl" style={{ color: "#260b01", }} /> 
                     </button>
                 </div>
             </div>

@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #260b01;
 }
 .containerA .contenido2 .p2{
    padding: 20px;

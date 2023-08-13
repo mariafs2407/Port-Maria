@@ -14,6 +14,7 @@
     background-color: #fcb69f;
     justify-content: space-between;
     padding: 20px 30px 0px 30px;
+    color: #260B01;
     margin-bottom: -15px;
     /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
 }
@@ -41,20 +42,7 @@
 
 
 .container .nav li .li .float {
-    margin-right: 7px;
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
-}
-
-.container .nav li .li .float:hover {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-}
-
-.container .nav li img {
-    margin-right: 5px;
+    margin-right: 7px;    
 }
 
 .container .idioma .icn{

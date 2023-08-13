@@ -1,6 +1,7 @@
 .cont-footer {
     background-color: #260B01;
     padding: 10px;
+    color: #fff;
 }
 
 .cont-footer .link-footer {
@@ -9,20 +10,8 @@
     margin: 20px auto;
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
+    color: #fff;
 }
-
-.cont-footer .link-footer a {    
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
-}
-
-.cont-footer .link-footer a:hover {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-}
-
 
 .cont-footer .footer__copy {
     display: flex;
