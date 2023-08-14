@@ -22,35 +22,33 @@
     .letraTitulo{
         font-size: 24px;
     }    
-    .texto { 
-        font-size: 16px;        
-    }
+    
 }
 
 /* Tamaños de pantalla medianos, para dispositivos más pequeños y tablets en modo horizontal */
 @media screen and (max-width: 768px){
 
     .letraTitulo{
-        font-size: 20px;
+        font-size: 22px;
     }
     .letraMediana {
-        font-size: 17px;       
+        font-size: 19px;       
     }
     .texto { 
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
     }
 
 }
 @media screen and (max-width:480px){
     .letraTitulo{
-        font-size: 16px;
+        font-size: 18px;
     }
     .letraMediana {
-        font-size: 14px;       
+        font-size: 16px;       
     }
     .texto { 
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
     }    
 }
