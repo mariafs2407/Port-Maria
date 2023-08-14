@@ -9,6 +9,14 @@ import reactnat from '../assets/skills/react-native.png';
 import bosp from '../assets/skills/bootstrap.png';
 import js from '../assets/skills/js.png';
 import { FormattedMessage } from 'react-intl';
+//importando iconos
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faGitAlt, faGithub, faCss3Alt,
+    faHtml5, faReact, faBootstrap,
+    faJs, faJava
+} from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     return (
@@ -22,40 +30,48 @@ const Skills = () => {
                         id="Skills.Titulo"
                         defaultMessage="Habilidades"
                     />
-                    
+
                 </h1>
                 <div className='container-skills'>
                     <div className='caja'>
-                        <img src={html} alt="" />
-                        <h1>HTML</h1>
+                        <FontAwesomeIcon className="img" icon={faHtml5}  style={{ color: "#b65520", }} />
+                        <h1 className='texto'>HTML</h1>
                     </div>
                     <div className='caja'>
-                        <img src={css} alt="" />
-                        <h1>CSS</h1>
+                        <FontAwesomeIcon className="img" icon={faCss3Alt}  style={{ color: "#1f3356", }} />
+                        <h1 className='texto'>CSS</h1>
                     </div>
                     <div className='caja'>
-                        <img src={git} alt="" />
-                        <h1>GIT</h1>
+                        <FontAwesomeIcon className="img" icon={faGitAlt} style={{ color: "#e94b07", }} />
+                        <h1 className='texto'>GIT</h1>
                     </div>
                     <div className='caja'>
-                        <img src={github} alt="" />
-                        <h1>GITHUB</h1>
+                        <FontAwesomeIcon className="img" icon={faGithub}  style={{ color: "#220231", }} />
+                        <h1 className='texto'>GITHUB</h1>
                     </div>
                     <div className='caja'>
-                        <img src={react} alt="" />
-                        <h1>REACT</h1>
+                        <FontAwesomeIcon className="img" icon={faReact} style={{ color: "#2d68cd", }} />
+                        <h1 className='texto'>REACT</h1>
                     </div>
                     <div className='caja'>
-                        <img src={reactnat} alt="" />
-                        <h1>REACT NATIVE</h1>
+                        <FontAwesomeIcon className="img" icon={faReact} style={{ color: "#37a9b9", }} />
+                        <h1 className='texto'>REACT NATIVE</h1>
                     </div>
                     <div className='caja'>
-                        <img src={bosp} alt="" />
-                        <h1>BOOSTRAP</h1>
+                        <FontAwesomeIcon className="img" icon={faBootstrap}  style={{ color: "#563a98", }} />
+                        <h1 className='texto'>BOOSTRAP</h1>
                     </div>
                     <div className='caja'>
-                        <img src={js} alt="" />
-                        <h1>JavaScript</h1>
+                        <FontAwesomeIcon className="img" icon={faJs} style={{ color: "#c9af2c", }} />
+                        <h1 className='texto'>JavaScript</h1>
+                    </div>
+                    <div className='caja'>
+                        <FontAwesomeIcon className="img" icon={faJava}  style={{ color: "#770b03", }} />
+                        <h1 className='texto'>JAVA</h1>
+                    </div>
+                    <div className='caja'>
+                        <FontAwesomeIcon className="img" icon={faDatabase}  style={{ color: "#26282b", }} />
+                        <h1 className='texto'>SQL Server</h1>
                     </div>
                 </div>
             </div>

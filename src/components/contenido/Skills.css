@@ -1,65 +1,83 @@
-.cajapadreS{
+.cajapadreS {
     display: flex;
     flex-direction: column;
-    margin-top: -10% ;
+    margin-top: -10%;
 }
 
-.cajapadre-skill{
+.cajapadre-skill {
     width: 100%;
     background-color: #E6D5BB;
     margin: 0;
     color: #260b01;
 }
 
-.cajapadre-skill .pos{
+.cajapadre-skill .pos {
     text-align: center;
     margin-top: -20px;
 }
-.container-skills{
+
+.container-skills {
     margin: 20px auto;
-    width: 90%;    
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
 }
 
-.container-skills .caja{
+.container-skills .caja {
     padding: 20px;
 }
 
-.container-skills .caja img{
+.container-skills .caja .img {
+    font-size: 60px;
+    padding-bottom: 10px;
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
-    
-}              
-.container-skills .caja img:hover{
+
+}
+
+.container-skills .caja .img:hover {
     transform: scale3d(1.5, 1.5, 0.3);
     -webkit-transform: scale3d(1.5, 1.5, 0.3);
     -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
-/* ----------------------------------- */
-@media screen and (max-width:630px){
 
-    .cajapadreS .efectoS{
+/* ----------------------------------- */
+
+@media screen and (max-width:630px) {
+
+    .cajapadreS .efectoS {
         visibility: hidden;
     }
-    .cajapadreS .cajapadre-skill{
+
+    .cajapadreS .cajapadre-skill {
         padding-top: 10%;
     }
-    .container-skills{        
-        grid-template-columns: repeat(5,20%);
+
+    .container-skills {
+        grid-template-columns: repeat(5, 20%);
     }
-    
+
 }
-@media screen and (max-width:500px){
 
-    .container-skills{        
-        grid-template-columns: repeat(4,25%);
+@media screen and (max-width:500px) {
+
+    .container-skills {
+        grid-template-columns: repeat(4, 25%);
     }
-    .container-skills .caja img{
-        width: 90%;        
-    } 
 
+    .container-skills .caja img {
+        width: 90%;
+    }
+
+    .container-skills .caja {
+        height: 50px;
+    }
+
+    .container-skills .caja .texto {
+        visibility: hidden;
+
+    }
 
 }

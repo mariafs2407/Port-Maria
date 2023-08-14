@@ -3,8 +3,7 @@ import './Footer.css';
 import { FormattedMessage } from 'react-intl';
 //importacion de iconos
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp , faGithub } from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from  '@fortawesome/free-solid-svg-icons';
 
 const footer = () => {

@@ -7,13 +7,13 @@
 .letraTitulo {
     color: #260B01;
     font-size: 35px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif; 
 
 }
 /* ------------------- */
 
 @media screen and (max-width:1040px){
-    * { 
+    .texto { 
         font-size: 16px;
     }
 
@@ -24,17 +24,17 @@
 
 @media screen and (max-width:620px){
 
-    * { 
-        font-size: 14px;
+    .texto { 
+        font-size: 20px;
     }
 
     .letraTitulo{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width:330px){
 
-    * { 
+    .texto { 
         font-size: 10px;
     }
     .letraTitulo{

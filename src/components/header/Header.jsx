@@ -35,7 +35,7 @@ const Header = () => {
                     <li>
                         <a className='li ' href="#top">
                             <FontAwesomeIcon className='float' icon={faHouse} bounce style={{ color: "#260b01", }} />
-                            <FormattedMessage className="text"
+                            <FormattedMessage className="texto"
                                 id='menu.Home'
                                 defaultMessage="Inicio"
                             />
@@ -45,7 +45,7 @@ const Header = () => {
                     <li>
                         <a className='li ' href="#about">
                             <FontAwesomeIcon icon={faUser} className='float' bounce style={{ color: "#260b01", }} />
-                            <FormattedMessage className="text"
+                            <FormattedMessage className="texto"
                                 id='menu.About'
                                 defaultMessage="Sobre mí"
                             />
@@ -55,7 +55,7 @@ const Header = () => {
                     <li>
                         <a className='li' href="#skills">
                             <FontAwesomeIcon icon={faBrain} className='float' bounce style={{ color: "#260b01", }} />
-                            <FormattedMessage className="text"
+                            <FormattedMessage className="texto"
                                 id="menu.Skills"
                                 defaultMessage="Habilidades"
                             />
@@ -65,19 +65,19 @@ const Header = () => {
                     <li>
                         <a className='li ' href="#projects">
                             <FontAwesomeIcon icon={faRocket} className='float' bounce style={{ color: "#260b01", }} />
-                            <FormattedMessage className="text"
+                            <FormattedMessage className="texto"
                                 id="menu.Projects"
                                 defaultMessage="Proyectos"
                             />
                         </a>
                     </li>
-                    {/* idioma */}
-                </ul>
 
+                </ul>
+                {/* idioma */}
                 <div className='idioma'>
                     <button className='icn' onClick={toggleIdioma}>
-                        <FontAwesomeIcon icon={idiomaActual === 'es-SP' ? 
-                        faToggleOff : faToggleOn} size="2xl" style={{ color: "#260b01", }} /> 
+                        <FontAwesomeIcon icon={idiomaActual === 'es-SP' ?
+                            faToggleOff : faToggleOn} size="2xl" style={{ color: "#260b01", }} />
                     </button>
                 </div>
             </div>

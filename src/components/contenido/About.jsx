@@ -16,7 +16,7 @@ const About = () => {
                         }
                     />
                 </h1>
-                <p className='p2'>
+                <p className='p2 texto'>
                     <FormattedMessage
                         id="About.Contenido"
                         defaultMessage="Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el 5 ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos."
