@@ -24,12 +24,14 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects1.Titulo"
                                     defaultMessage="Página de criptomonedas"
+                                    className="letraTitulo"
                                 />
                             </h1>
                             <div className="card__body">
                                 <FormattedMessage
                                     id="Projects1.Contenido"
                                     defaultMessage="Con React , css y grid."
+                                    className="texto"
                                 />
                             </div>
                             <a className='button'
@@ -38,6 +40,7 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
+                                    className="texto"
                                 />
                             </a>
                         </div>
@@ -51,12 +54,14 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects2.Titulo"
                                     defaultMessage="Página en proceso"
+                                    className="letraTitulo"
                                 />
                             </h1>
                             <div className="card__body">
                                 <FormattedMessage
                                     id="Projects2.Contenido"
                                     defaultMessage="..."
+                                    className="texto"
                                 />
                             </div>
                             <a className='button'
@@ -65,6 +70,7 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
+                                    className="texto"
                                 /></a>
                         </div>
                     </div>
@@ -77,12 +83,14 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects3.Titulo"
                                     defaultMessage="Página en proceso"
+                                    className="letraTitulo"
                                 />
                             </h1>
                             <div className="card__body">
                                 <FormattedMessage
                                     id="Projects3.Contenido"
                                     defaultMessage="..."
+                                    className="texto"
                                 />
                             </div>
                             <a className='button'
@@ -91,6 +99,7 @@ const Projects = () => {
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
+                                    className="texto"
                                 />
                             </a>
                         </div>

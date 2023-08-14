@@ -36,9 +36,9 @@
 @media screen and (max-width:480px){
 
     .texto { 
-        font-size: 14px;
+        font-size: 12px;
     }
     .letraTitulo{
-        font-size: 20px;
+        font-size: 26px;
     }
 }

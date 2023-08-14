@@ -97,27 +97,32 @@
 }
 
 /* ------------------------------------ */
-
-@media screen and (max-width:1000px){
-    
+/* Tamaños de pantalla más grandes, como tabletas y pantallas de escritorio pequeñas */
+@media screen and (max-width:1040px){
     .contenedor-card .figure {        
         height: 200px;
         width: 260px;
     }
 }
-@media screen and (max-width:500px){
-    .contenedor-card{        
-        padding-top: 20px;
-    }
-    .contenedor-card .figure {        
-        height: 150px;
-        width: 210px;
-    }
+/* Tamaños de pantalla medianos, para dispositivos más pequeños y tablets en modo horizontal */
+@media screen and (max-width: 768px){
+
     .contenedor-card .figure:hover>.capa h1 {
         margin-top: 20px;
         margin-bottom: 15px;
     }
-    
 }
+@media screen and (max-width:480px){
+
+    .contenedor-card{        
+        padding-top: 20px;
+    }
+    
+    .contenedor-card .figure:hover>.capa h1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
 
 
