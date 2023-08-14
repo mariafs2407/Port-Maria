@@ -11,8 +11,20 @@
 
 }
 /* ------------------- */
-
+/* Tamaños de pantalla más grandes, como tabletas y pantallas de escritorio pequeñas */
 @media screen and (max-width:1040px){
+    .texto { 
+        font-size: 18px;
+    }
+
+    .letraTitulo{
+        font-size: 30px;
+    }
+}
+
+/* Tamaños de pantalla medianos, para dispositivos más pequeños y tablets en modo horizontal */
+@media screen and (max-width: 768px){
+
     .texto { 
         font-size: 16px;
     }
@@ -21,23 +33,12 @@
         font-size: 25px;
     }
 }
-
-@media screen and (max-width:620px){
+@media screen and (max-width:480px){
 
     .texto { 
+        font-size: 14px;
+    }
+    .letraTitulo{
         font-size: 20px;
-    }
-
-    .letraTitulo{
-        font-size: 25px;
-    }
-}
-@media screen and (max-width:330px){
-
-    .texto { 
-        font-size: 10px;
-    }
-    .letraTitulo{
-        font-size: 15px;
     }
 }
