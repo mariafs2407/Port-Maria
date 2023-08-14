@@ -1,13 +1,13 @@
-
 /* ABOUT */
-.containerA{    
-    margin-top: -12%; 
+.containerA {
+    margin-top: -12%;
     display: flex;
-    flex-direction: row;  
-    padding:0 50px;      
+    flex-direction: row;
+    padding: 0 50px;
 }
-.containerA .contenido2{
-    display: flex;    
+
+.containerA .contenido2 {
+    display: flex;
     width: 60%;
     margin: 30px;
     flex-direction: column;
@@ -15,55 +15,63 @@
     align-items: center;
     color: #260b01;
 }
-.containerA .contenido2 .p2{
-   padding: 20px;
+
+.containerA .contenido2 .p2 {
+    padding: 20px;
 }
-.containerA  img{
+
+.containerA img {
     width: 400px;
 }
 
 /* ----------------------------------- */
 
-@media screen and (max-width:1040px){
-    
-    .containerA img{
+@media screen and (max-width:1040px) {
+
+    .containerA img {
         width: 300px;
         height: 300px;
     }
 }
-@media screen and (max-width:820px){
-    
-    .containerA img{
+
+@media screen and (max-width:820px) {
+
+    .containerA img {
         width: 200px;
         height: 200px;
         padding-top: 100px;
     }
 }
-@media screen and (max-width:560px){
-    
-    .containerA{            
-        padding:0 10px;      
+
+@media screen and (max-width:560px) {
+
+    .containerA {
+        padding: 0 10px;
     }
-    .containerA img{
+
+    .containerA img {
         padding-top: 50px;
     }
 }
-@media screen and (max-width:500px){
-    
-    .containerA{             
+
+@media screen and (max-width:500px) {
+
+    .containerA {
         display: flex;
         flex-direction: column;
     }
-    .containerA .contenido2{
-        display: flex;    
+
+    .containerA .contenido2 {
+        display: flex;
         width: 100%;
-        margin: 5px;        
+        margin: 5px;
     }
-    .containerA  img{
+
+    .containerA img {
         width: 150px;
         height: 150px;
         padding-top: 20px;
         margin: auto;
     }
-    
+
 }

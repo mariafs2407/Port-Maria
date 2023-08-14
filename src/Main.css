@@ -1,8 +1,10 @@
-* {    
+*{    
     font-size: 20px;    
     font-family: 'Poppins', sans-serif; 
-    margin: 0
-    
+    margin: 0;  
+}
+.texto{
+    text-align: justify;
 }
 .letraTitulo {
     color: #260B01;
@@ -21,8 +23,7 @@
         font-size: 24px;
     }    
     .texto { 
-        font-size: 16px;
-        text-align: justify;
+        font-size: 16px;        
     }
 }
 

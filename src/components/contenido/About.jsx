@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className='containerA' id='about'>
             <div className='contenido2'>
-                <h1 className='letraTitulo p1'>
+                <h1 className='letraTitulo '>
                     <FormattedMessage
                         id="About.Titulo"
                         defaultMessage="Soy"
