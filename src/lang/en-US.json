@@ -12,13 +12,13 @@
 
     "Projects.Titulo":"Projects",
     "Projects1.Titulo":"Cryptocurrency page",
-    "Projects1.Contenido":"With React, css and grid.",
+    "Projects1.Contenido":"Project developed using React, CSS, and HTML. Integrates cryptocurrency API.",
     
-    "Projects2.Titulo":"rick and morty page",
-    "Projects2.Contenido":"With React, css, rick and morty api",
+    "Projects2.Titulo":"Rick and morty page",
+    "Projects2.Contenido":"Project created with React, CSS, and HTML. Additionally, it integrates the Rick and Morty API.",
 
     "Projects3.Titulo":"CRUD desk",    
-    "Projects3.Contenido":"With JAVA language, using MVC and BD MySQL",
+    "Projects3.Contenido":"Project created using Java language and the MVC methodology, with integration of a MySQL database.",
 
     "Footer.Derechos": "All rights reserved"
 }

@@ -20,27 +20,24 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p1} alt="" />
                         <div className='capa'>
-                            <h1>
+                            <h1 className="letraTitulo">
                                 <FormattedMessage
                                     id="Projects1.Titulo"
-                                    defaultMessage="Página de criptomonedas"
-                                    className="letraTitulo"
+                                    defaultMessage="Página en progreso"                                    
                                 />
                             </h1>
-                            <div className="card__body">
+                            <div className="card__body texto">
                                 <FormattedMessage
                                     id="Projects1.Contenido"
                                     defaultMessage="Con React , css y grid."
-                                    className="texto"
                                 />
                             </div>
-                            <a className='button'
+                            <a className='button texto'
                                 href='https://react-coin-cap.vercel.app/'
                                 target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
-                                    defaultMessage="Ver más"
-                                    className="texto"
+                                    defaultMessage="Ver más"                                    
                                 />
                             </a>
                         </div>
@@ -50,27 +47,24 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p2} alt="" />
                         <div className='capa'>
-                            <h1>
+                            <h1 className="letraTitulo">
                                 <FormattedMessage
                                     id="Projects2.Titulo"
-                                    defaultMessage="Página en proceso"
-                                    className="letraTitulo"
+                                    defaultMessage="Página en proceso"                                    
                                 />
                             </h1>
-                            <div className="card__body">
+                            <div className="card__body texto">
                                 <FormattedMessage
                                     id="Projects2.Contenido"
                                     defaultMessage="..."
-                                    className="texto"
                                 />
                             </div>
-                            <a className='button'
+                            <a className='button texto'
                                 href='https://api-rick-morty-eight.vercel.app/'
                                 target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
-                                    className="texto"
                                 /></a>
                         </div>
                     </div>
@@ -79,27 +73,24 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p3} alt="" />
                         <div className='capa'>
-                            <h1>
+                            <h1  className="letraTitulo">
                                 <FormattedMessage
                                     id="Projects3.Titulo"
                                     defaultMessage="Página en proceso"
-                                    className="letraTitulo"
                                 />
                             </h1>
-                            <div className="card__body">
+                            <div className="card__body texto">
                                 <FormattedMessage
                                     id="Projects3.Contenido"
                                     defaultMessage="..."
-                                    className="texto"
                                 />
                             </div>
-                            <a className='button'
+                            <a className='button texto'
                                 href='https://github.com/mariafs2407/proy-escritorio'
                                 target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
                                     defaultMessage="Ver más"
-                                    className="texto"
                                 />
                             </a>
                         </div>

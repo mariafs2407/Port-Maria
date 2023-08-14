@@ -14,12 +14,12 @@
     justify-content: center;
 }
 
-/* cards */
+/* contenedor  cards */
 .cajapadre-proy .contenedor-card {    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .contenedor-card .figure {
@@ -50,6 +50,7 @@
     opacity: 0;
     visibility: hidden;
     text-align: center;
+    padding: auto;
 }
 
 .contenedor-card .figure:hover>.capa {
@@ -69,8 +70,7 @@
 }
 
 .contenedor-card .figure .capa .card__body {
-    color: #fff;
-    font-size: 15px;
+    color: #fff;    
     line-height: 1.5;
     width: 100%;
     margin: auto;
@@ -83,8 +83,7 @@
     color: #260b01;
     padding: 5px;   
     border: 2px outset #fff;
-    transition: color .5s;
-    font-size: 17px;
+    transition: color .5s;    
     border-radius: 6px;    
     text-decoration: none;
 }
@@ -117,7 +116,10 @@
     .contenedor-card{        
         padding-top: 20px;
     }
-    
+    .contenedor-card .figure {        
+        height: 180px;
+        width: 240px;
+    }
     .contenedor-card .figure:hover>.capa h1 {
         margin-top: 10px;
         margin-bottom: 15px;

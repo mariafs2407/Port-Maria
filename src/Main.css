@@ -15,6 +15,7 @@
 @media screen and (max-width:1040px){
     .texto { 
         font-size: 18px;
+        text-align: justify;
     }
 
     .letraTitulo{
@@ -26,19 +27,21 @@
 @media screen and (max-width: 768px){
 
     .texto { 
-        font-size: 16px;
+        font-size: 15px;
+        text-align: justify;
     }
 
     .letraTitulo{
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 @media screen and (max-width:480px){
 
     .texto { 
-        font-size: 12px;
+        font-size: 10px;
+        text-align: center;
     }
     .letraTitulo{
-        font-size: 26px;
+        font-size: 16px;
     }
 }

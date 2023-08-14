@@ -20,7 +20,7 @@ const footer = () => {
                     <FontAwesomeIcon icon={faEnvelope} size="lg" beat style={{color: "#ffffff",}} />
                 </a>
             </div>
-            <p className="footer__copy texto">
+            <p className="footer__copy texto ">
                 2023 <span >©</span>
                 <FormattedMessage
                     id='Footer.Derechos'
