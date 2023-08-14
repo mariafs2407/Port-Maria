@@ -20,13 +20,13 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p1} alt="" />
                         <div className='capa'>
-                            <h1 className="letraTitulo">
+                            <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects1.Titulo"
                                     defaultMessage="Página en progreso"                                    
                                 />
                             </h1>
-                            <div className="card__body texto">
+                            <div className="card__body ">
                                 <FormattedMessage
                                     id="Projects1.Contenido"
                                     defaultMessage="Con React , css y grid."
@@ -47,13 +47,13 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p2} alt="" />
                         <div className='capa'>
-                            <h1 className="letraTitulo">
+                            <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects2.Titulo"
                                     defaultMessage="Página en proceso"                                    
                                 />
                             </h1>
-                            <div className="card__body texto">
+                            <div className="card__body ">
                                 <FormattedMessage
                                     id="Projects2.Contenido"
                                     defaultMessage="..."
@@ -73,13 +73,13 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p3} alt="" />
                         <div className='capa'>
-                            <h1  className="letraTitulo">
+                            <h1  className="letraMediana">
                                 <FormattedMessage
                                     id="Projects3.Titulo"
                                     defaultMessage="Página en proceso"
                                 />
                             </h1>
-                            <div className="card__body texto">
+                            <div className="card__body ">
                                 <FormattedMessage
                                     id="Projects3.Contenido"
                                     defaultMessage="..."

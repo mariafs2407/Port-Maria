@@ -6,42 +6,50 @@
 }
 .letraTitulo {
     color: #260B01;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif; 
-
+}
+.letraMediana {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
 }
 /* ------------------- */
 /* Tamaños de pantalla más grandes, como tabletas y pantallas de escritorio pequeñas */
 @media screen and (max-width:1040px){
-    .texto { 
-        font-size: 18px;
-        text-align: justify;
-    }
-
+    
     .letraTitulo{
-        font-size: 30px;
+        font-size: 24px;
+    }    
+    .texto { 
+        font-size: 16px;
+        text-align: justify;
     }
 }
 
 /* Tamaños de pantalla medianos, para dispositivos más pequeños y tablets en modo horizontal */
 @media screen and (max-width: 768px){
 
-    .texto { 
-        font-size: 15px;
-        text-align: justify;
-    }
-
     .letraTitulo{
-        font-size: 23px;
+        font-size: 20px;
     }
-}
-@media screen and (max-width:480px){
-
+    .letraMediana {
+        font-size: 17px;       
+    }
     .texto { 
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
     }
+
+}
+@media screen and (max-width:480px){
     .letraTitulo{
         font-size: 16px;
     }
+    .letraMediana {
+        font-size: 14px;       
+    }
+    .texto { 
+        font-size: 10px;
+        text-align: center;
+    }    
 }
