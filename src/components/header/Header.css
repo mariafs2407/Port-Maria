@@ -19,6 +19,7 @@
     margin-bottom: -15px;
 }
 
+/* contenedor de iconos */
 .container .nav {
     display: flex;
     flex-direction: row;
@@ -30,6 +31,7 @@
     padding: 10px 10px
 }
 
+/* iconos ---- */
 .container .nav li .li {
     text-decoration: none;
     color: #fff;
@@ -55,7 +57,7 @@
 
 /* --------------------------------------- */
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1040px) {
 
     .container .nav li {
         padding: auto;
@@ -71,14 +73,14 @@
     }
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:768px) {
 
     .efecto {
         visibility: hidden;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
     
     .contHeader .container {
         display: flex;
@@ -96,8 +98,15 @@
         width: 120px;
     }
 
+    .container .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
     .container .nav li {
         height: 30px;
+        width: 30px;                
     }
     .container .idioma .icn {
         margin-bottom: 5px;
