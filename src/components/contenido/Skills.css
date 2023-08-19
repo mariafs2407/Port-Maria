@@ -62,24 +62,45 @@
 
 }
 
+/* esta partte quiero---------- */
 @media screen and (max-width:500px) {
 
-
-    .container-skills .caja .img {
-        width: 40px;
+    .container-skills .caja {
+        height: 60px;
+        width: 60px;
+        margin: 20px;
+        overflow: hidden;
+        position: relative;
     }
 
-    .container-skills .caja {
-        height: 50px;
-        width: 50px;
-        margin: 20px;
+    .container-skills .caja .img {
+        width: 40px;        
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);        
+        transition: transform 0.5s;
     }
 
     .container-skills .caja .texto {
-        visibility: hidden;
-    }
-    .cajapadre-skill .pos {        
-        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        border-radius: 2px;
+        background-color: rgba(19, 18, 18, 0.897);
+        font-size: 10px;
+        text-align: center;
+        transform: translateY(100%); /*traslada al icono abajo */
+        transition: transform 0.5s;
     }
 
+    .container-skills .caja:hover .img {
+        transform: translate(-50%, -50%) scale(1.5);        
+    }
+
+    .container-skills .caja:hover .texto {
+        transform: translateY(-50%);  /*sube el titulo*/      
+    }
 }

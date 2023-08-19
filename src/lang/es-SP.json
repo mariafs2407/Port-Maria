@@ -5,7 +5,7 @@
     "menu.Projects":"Proyectos",
 
     "About.Titulo": "Soy {name}",
-    "About.Contenido":"Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el 5 ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos.",
+    "About.Contenido":"Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el sexto ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos.",
 
     "Skills.Titulo":"Habilidades",
 
@@ -20,7 +20,7 @@
     "Projects2.Contenido":"Proyecto creado con React, CSS y HTML. Además, integra la API de Rick y Morty.",
 
     "Projects3.Titulo":"CRUD escritorio",   
-    "Projects3.Contenido":"Proyecto creado con lenguaje Java y la metodología MVC, con la integración de una base de datos MySQL.",
+    "Projects3.Contenido":"Proyecto creado con lenguaje Java y MVC, con la integración de una base de datos MySQL.",
 
 
 

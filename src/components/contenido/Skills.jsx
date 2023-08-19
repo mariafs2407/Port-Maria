@@ -35,7 +35,7 @@ const Skills = () => {
                 <div className='container-skills'>
                     <div className='caja'>
                         <FontAwesomeIcon className="img" icon={faHtml5}  style={{ color: "#b65520", }} />
-                        <h1 className='texto'>HTML</h1>
+                        <h1 className='texto'>HTML</h1>                        
                     </div>
                     <div className='caja'>
                         <FontAwesomeIcon className="img" icon={faCss3Alt}  style={{ color: "#1f3356", }} />

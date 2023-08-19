@@ -5,7 +5,7 @@
     "menu.Projects":"Projects",
 
     "About.Titulo": "I'm {name}",
-    "About.Contenido":"Student of the Software Development career, at the moment I am studying the 5th cycle of my career, I am an organized, responsible, creative person, with the passion of learning new technologies and new challenges.",
+    "About.Contenido":"Student of the Software Development career, at the moment I am studying the sixth cycle of my career, I am an organized, responsible, creative person, with the passion of learning new technologies and new challenges.",
 
     "Skills.Titulo":"Skills",
     "Projects.Boton": "See more",
@@ -18,7 +18,7 @@
     "Projects2.Contenido":"Project created with React, CSS, and HTML. Additionally, it integrates the Rick and Morty API.",
 
     "Projects3.Titulo":"CRUD desk",    
-    "Projects3.Contenido":"Project created using Java language and the MVC methodology, with integration of a MySQL database.",
+    "Projects3.Contenido":"Project created using Java language and MVC, with integration of a MySQL database.",
 
     "Footer.Derechos": "All rights reserved"
 }

@@ -60,14 +60,11 @@
 }
 
 /* card texto titulo y contenido */
-.contenedor-card .figure:hover>.capa h1 {
-    margin: 40px 0px 12px 0px; 
-    text-align: center;   
-    width: 90%;
-    margin: 10px;
+.contenedor-card .figure:hover>.capa .letraMediana {
+    margin: 18px auto;
 }
 
-.contenedor-card .figure .capa h1 {
+.contenedor-card .figure .capa .letraMediana {
     color: #fff;   
     transition: all 500ms ease-out;   
 }
@@ -106,14 +103,7 @@
         width: 260px;
     }
 }
-/* Tamaños de pantalla medianos, para dispositivos más pequeños y tablets en modo horizontal */
-@media screen and (max-width: 768px){
 
-    .contenedor-card .figure:hover>.capa h1 {
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
-}
 @media screen and (max-width:480px){
 
     .contenedor-card{        
