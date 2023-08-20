@@ -11,12 +11,10 @@
 .letraTitulo {
     color: #260B01;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif; 
 }
 .letraMediana {
     font-size: 20px;
-    font-family: 'Poppins', sans-serif; 
-}
+}    
 /* ------------------- */
 /* Tamaños de pantalla más grandes, como tabletas y pantallas de escritorio pequeñas */
 @media screen and (max-width:1040px){
