@@ -1,10 +1,6 @@
-.cajapadre {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-}
 
 .contHeader {
+    width: 100%;    
     display: flex;
     flex-direction: column;
 }
@@ -51,9 +47,7 @@
     background-color: #fcb69f;
 }
 
-.efecto {
-    margin-top: 0.8%;
-}
+
 
 /* --------------------------------------- */
 
