@@ -26,7 +26,7 @@ const Header = () => {
     };
 
     return (
-        <div className='contHeader'>
+        <div className='contHeader' >
             <div className='container'>
                 <div className='logo'>
                     <img src={logo} alt="logo" />
