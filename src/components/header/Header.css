@@ -107,7 +107,8 @@
     }
     .container .nav li {
         height: 30px;
-        width: 30px;                
+        width: 30px;   
+        margin: 10px;             
     }
     .container .idioma .icn {
         margin-bottom: 5px;
