@@ -28,21 +28,21 @@
 }
 
 /* iconos ---- */
-.container .nav li .li {
+.container .nav li .li__icono {
     text-decoration: none;
     color: #fff;
 }
 
-.container .nav li .li:hover {
+.container .nav li .li__icono:hover {
     color: #260B01;
 }
 
 
-.container .nav li .li .float {
+.container .nav li .li__icono .float {
     margin-right: 7px;
 }
 
-.container .idioma .icn {
+.container .idioma .idioma_icn {
     border: #fcb69f;
     background-color: #fcb69f;
 }
@@ -58,7 +58,7 @@
         width: 50px;
     }
 
-    .container .nav li .li {
+    .container .nav li .li__icono {
         visibility: hidden;
     }
 
@@ -104,7 +104,7 @@
         width: 30px;   
         margin: 10px;             
     }
-    .container .idioma .icn {
+    .container .idioma .idioma_icn {
         margin-bottom: 5px;
     }
 }

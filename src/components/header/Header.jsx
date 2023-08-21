@@ -33,7 +33,7 @@ const Header = () => {
                 </div>
                 <ul className='nav'>
                     <li>
-                        <a className='li ' href="#top">
+                        <a className='li__icono' href="#top">
                             <FontAwesomeIcon className='float' icon={faHouse} bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="texto"
                                 id='menu.Home'
@@ -43,7 +43,7 @@ const Header = () => {
                     </li>
                     {/* about */}
                     <li>
-                        <a className='li ' href="#about">
+                        <a className='li__icono' href="#about">
                             <FontAwesomeIcon icon={faUser} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="texto"
                                 id='menu.About'
@@ -53,7 +53,7 @@ const Header = () => {
                     </li>
                     {/* skills */}
                     <li>
-                        <a className='li' href="#skills">
+                        <a className='li__icono' href="#skills">
                             <FontAwesomeIcon icon={faBrain} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="texto"
                                 id="menu.Skills"
@@ -63,7 +63,7 @@ const Header = () => {
                     </li>
                     {/* projects */}
                     <li>
-                        <a className='li ' href="#projects">
+                        <a className='li__icono' href="#projects">
                             <FontAwesomeIcon icon={faRocket} className='float' bounce style={{ color: "#260b01", }} />
                             <FormattedMessage className="texto"
                                 id="menu.Projects"
@@ -75,7 +75,7 @@ const Header = () => {
                 </ul>
                 {/* idioma */}
                 <div className='idioma'>
-                    <button className='icn' onClick={toggleIdioma}>
+                    <button className='idioma_icn' onClick={toggleIdioma}>
                         <FontAwesomeIcon icon={idiomaActual === 'es-SP' ?
                             faToggleOff : faToggleOn} size="2xl" style={{ color: "#260b01", }} />
                     </button>

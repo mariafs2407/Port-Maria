@@ -5,8 +5,8 @@ import { FormattedMessage } from 'react-intl';
 
 const About = () => {
     return (
-        <div className='containerA' id='about'>
-            <div className='contenido2'>
+        <div className='container__about' id='about'>
+            <div className='about_content'>
                 <h1 className='letraTitulo '>
                     <FormattedMessage
                         id="About.Titulo"
@@ -16,7 +16,7 @@ const About = () => {
                         }
                     />
                 </h1>
-                <p className='p2 texto'>
+                <p className='about_img texto'>
                     <FormattedMessage
                         id="About.Contenido"
                         defaultMessage="Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el 5 ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos."
