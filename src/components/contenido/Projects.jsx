@@ -2,6 +2,7 @@ import React from 'react';
 import p1 from '../assets/proyectos/p1.png';
 import p2 from '../assets/proyectos/p2.png';
 import p3 from '../assets/proyectos/p3.png';
+import p4 from '../assets/proyectos/p4.png';
 import img from '../assets/img.jpg';
 import './Projects.css'
 import { FormattedMessage } from 'react-intl';
@@ -87,6 +88,33 @@ const Projects = () => {
                             </div>
                             <a className='button texto'
                                 href='https://github.com/mariafs2407/proy-escritorio'
+                                target="_blank">
+                                <FormattedMessage
+                                    id="Projects.Boton"
+                                    defaultMessage="Ver más"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='contenedor-card'>
+                    <div className='figure'>
+                        <img src={p4} alt="" />
+                        <div className='capa'>
+                            <h1  className="letraMediana">
+                                <FormattedMessage
+                                    id="Projects4.Titulo"
+                                    defaultMessage="Página en proceso"
+                                />
+                            </h1>
+                            <div className="card__body ">
+                                <FormattedMessage
+                                    id="Projects4.Contenido"
+                                    defaultMessage="..."
+                                />
+                            </div>
+                            <a className='button texto'
+                                href='https://patitas-felices-two.vercel.app/'
                                 target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"

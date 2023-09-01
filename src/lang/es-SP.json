@@ -22,6 +22,9 @@
     "Projects3.Titulo":"CRUD escritorio",   
     "Projects3.Contenido":"Proyecto creado con lenguaje Java y MVC, con la integración de una base de datos MySQL.",
 
+    "Projects4.Titulo":"Página Web",   
+    "Projects4.Contenido":"Proyecto de adopción de perros en albergues, realizado con React,HTML y css.",
+
 
 
     "Footer.Derechos": "Todos los derechos reservados"

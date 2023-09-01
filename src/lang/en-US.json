@@ -20,5 +20,8 @@
     "Projects3.Titulo":"CRUD desk",    
     "Projects3.Contenido":"Project created using Java language and MVC, with integration of a MySQL database.",
 
+    "Projects4.Titulo":"Web page",    
+    "Projects4.Contenido":"Dog adoption project in shelters, made with React, HTML and css.",
+
     "Footer.Derechos": "All rights reserved"
 }
