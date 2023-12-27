@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faGitAlt, faGithub, faCss3Alt,
     faHtml5, faReact, faBootstrap,
-    faJs, faJava
+    faJs, faJava, faPhp 
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -34,11 +34,11 @@ const Skills = () => {
                 </h1>
                 <div className='container_skills_iconos'>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faHtml5}  style={{ color: "#b65520", }} />
-                        <h1 className='texto'>HTML</h1>                        
+                        <FontAwesomeIcon className="img" icon={faHtml5} style={{ color: "#b65520", }} />
+                        <h1 className='texto'>HTML</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faCss3Alt}  style={{ color: "#1f3356", }} />
+                        <FontAwesomeIcon className="img" icon={faCss3Alt} style={{ color: "#1f3356", }} />
                         <h1 className='texto'>CSS</h1>
                     </div>
                     <div className='caja'>
@@ -46,7 +46,7 @@ const Skills = () => {
                         <h1 className='texto'>GIT</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faGithub}  style={{ color: "#220231", }} />
+                        <FontAwesomeIcon className="img" icon={faGithub} style={{ color: "#220231", }} />
                         <h1 className='texto'>GITHUB</h1>
                     </div>
                     <div className='caja'>
@@ -58,7 +58,7 @@ const Skills = () => {
                         <h1 className='texto'>REACT NATIVE</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faBootstrap}  style={{ color: "#563a98", }} />
+                        <FontAwesomeIcon className="img" icon={faBootstrap} style={{ color: "#563a98", }} />
                         <h1 className='texto'>BOOSTRAP</h1>
                     </div>
                     <div className='caja'>
@@ -66,12 +66,20 @@ const Skills = () => {
                         <h1 className='texto'>JavaScript</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faJava}  style={{ color: "#770b03", }} />
+                        <FontAwesomeIcon className="img" icon={faPhp} style={{ color: "#474A8A", }} />
+                        <h1 className='texto'>PhP</h1>
+                    </div>                   
+                    <div className='caja'>
+                        <FontAwesomeIcon className="img" icon={faJava} style={{ color: "#770b03", }} />
                         <h1 className='texto'>JAVA</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faDatabase}  style={{ color: "#26282b", }} />
+                        <FontAwesomeIcon className="img" icon={faDatabase} style={{ color: "#26282b", }} />
                         <h1 className='texto'>SQL Server</h1>
+                    </div>
+                    <div className='caja'>
+                        <FontAwesomeIcon className="img" icon={faDatabase} style={{ color: "#00758F", }} />
+                        <h1 className='texto'>MySQL</h1>
                     </div>
                 </div>
             </div>

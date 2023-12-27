@@ -1,6 +1,6 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './Header.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 import { FormattedMessage } from 'react-intl';
 import { langContext } from '../../context/langContext';
 // importacion de iconos
@@ -11,8 +11,24 @@ import { faToggleOn } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 
-    const idioma = useContext(langContext);
+    const [scrolled, setScrolled] = useState(false);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 120) {
+                setScrolled(true);
+            } else {
+                setScrolled(false)
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
+
+        return () =>{
+            window.removeEventListener('scroll',handleScroll);
+        }
+    },[]);  
+
+    const idioma = useContext(langContext);
     const [idiomaActual, setIdiomaActual] = useState('es-SP');
 
     const toggleIdioma = () => {
@@ -27,7 +43,8 @@ const Header = () => {
 
     return (
         <div className='contHeader' >
-            <div className='container'>
+            {/* contenido de secciones */}
+            <div className={`container ${scrolled? 'scrolled' :''}`}>
                 <div className='logo'>
                     <img src={logo} alt="logo" />
                 </div>
