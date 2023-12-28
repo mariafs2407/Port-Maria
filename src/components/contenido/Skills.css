@@ -8,7 +8,7 @@
 .cajapadre-skill {
     width: 100%;
     background-color: #E6D5BB;
-    margin: 0;
+    margin: -5px 0 0 0 ;
     color: #260b01;
 }
 
@@ -56,7 +56,7 @@
     }
 
     .container_skills .cajapadre-skill {
-        padding-top: 10%;
+        padding-top: 9%;
     }
 
 
