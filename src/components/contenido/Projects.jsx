@@ -17,7 +17,7 @@ const Projects = () => {
                     defaultMessage="Proyectos"
                 />
             </h1>
-            {/* proyectos */}
+            {/*--- proyectos ----*/}
             <div className='cajapadre-proy'>
                 <div className='contenedor-card'>
                     <div className='figure'>
