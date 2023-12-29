@@ -23,5 +23,8 @@
     "Projects4.Titulo":"Web page",    
     "Projects4.Contenido":"Dog adoption project in shelters, made with React, HTML and css.",
 
+    "Projects5.Titulo":"Inventory management platform",    
+    "Projects5.Contenido":"Collaborative project with REACT, Bootstrap and animations with Lottie for a pizzeria.",
+    
     "Footer.Derechos": "All rights reserved"
 }
