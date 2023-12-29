@@ -3,7 +3,7 @@ import p1 from '../assets/proyectos/p1.png';
 import p2 from '../assets/proyectos/p2.png';
 import p3 from '../assets/proyectos/p3.png';
 import p4 from '../assets/proyectos/p4.png';
-import img5 from '../assets/proyectos/p5.png';
+import img5 from '../assets/proyectos/img5.png';
 import img from '../assets/img.jpg';
 import './Projects.css'
 import { FormattedMessage } from 'react-intl';
