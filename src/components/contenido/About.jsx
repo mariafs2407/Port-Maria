@@ -19,7 +19,7 @@ const About = () => {
                 <p className='about_img texto'>
                     <FormattedMessage
                         id="About.Contenido"
-                        defaultMessage="Estudiante de la carrera de Desarrollo de software, por el momento me encuentro cursando el 5 ciclo de mi carrera, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos."
+                        defaultMessage="Estudiante de la carrera de Desarrollo de software, soy una persona organizada, responsable ,creativa , con la pasión de aprender nuevas tecnologias y nuevos desafíos."
                     />
                 </p>
             </div>

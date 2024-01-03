@@ -4,8 +4,8 @@
     "menu.Skills":"Skills",
     "menu.Projects":"Projects",
 
-    "About.Titulo": "I'm {name}",
-    "About.Contenido":"Student of the Software Development career, at the moment I am studying the sixth cycle of my career, I am an organized, responsible, creative person, with the passion of learning new technologies and new challenges.",
+    "About.Titulo": "I'm {name},",
+    "About.Contenido":"Recently graduated from the Software Development program. During my time at the institution, I have worked on small Full Stack projects both within my institute and independently. I am characterized by being an organized, responsible, and creative individual. I have a strong passion for learning new technologies and taking on new challenges in the field of development.",
 
     "Skills.Titulo":"Skills",
     "Projects.Boton": "See more",
