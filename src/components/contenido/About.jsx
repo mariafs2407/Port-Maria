@@ -1,5 +1,5 @@
 import React from 'react';
-import yo from '../assets/yo.png';
+import yo from '../assets/animacion.png';
 import './About.css';
 import { FormattedMessage } from 'react-intl';
 
