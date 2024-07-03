@@ -1,77 +1,72 @@
 /* ABOUT */
 .container__about {
-    margin-top: -13%;
-    display: flex;
-    flex-direction: row;
-    padding: 0 50px;
+  margin-top: -13%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
 }
 
 .container__about .about_content {
-    display: flex;
-    width: 60%;
-    margin: 30px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #260b01;
+  display: flex;
+  width: 60%;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #260b01;
 }
 
 .container__about .about_content .about_img {
-    padding: 20px;
+  padding: 20px;
 }
 
 .container__about img {
-    width: 400px;
+  width: 400px;
 }
 
 /* ----------------------------------- */
 
-@media screen and (max-width:1040px) {
-
-    .container__about img {
-        width: 300px;
-        height: 300px;
-    }
+@media screen and (max-width: 1040px) {
+  .container__about img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
-@media screen and (max-width:820px) {
-
-    .container__about img {
-        width: 200px;
-        height: 200px;
-        padding-top: 100px;
-    }
+@media screen and (max-width: 820px) {
+  .container__about img {
+    width: 200px;
+    height: 200px;
+    padding-top: 100px;
+  }
 }
 
-@media screen and (max-width:560px) {
+@media screen and (max-width: 560px) {
+  .container__about {
+    padding: 0 10px;
+  }
 
-    .container__about {
-        padding: 0 10px;
-    }
-
-    .container__about img {
-        padding-top: 50px;
-    }
+  .container__about img {
+    padding-top: 50px;
+  }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+  .container__about {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px 20px 50px;
+  }
 
-    .container__about {
-        display: flex;
-        flex-direction: column;
-        padding: 50px 50px 20px 50px;
-    }
+  .container__about .about_content {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+  }
 
-    .container__about .about_content {
-        display: flex;
-        width: 100%;
-        margin: 5px;
-    }
-
-    .container__about img {
-        width: 200px;
-        padding-top: 20px;
-        margin: auto;
-    }
-
+  .container__about img {
+    width: 200px;
+    padding-top: 20px;
+    margin: auto;
+  }
 }

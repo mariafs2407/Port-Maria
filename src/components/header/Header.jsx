@@ -58,7 +58,7 @@ const Header = () => {
                 {/* idioma */}
                 <Lng idiomaActual={idiomaActual} toggleIdioma={toggleIdioma} />
                 {/* drawer */}
-                <div className='  ' onClick={toggleDrawer}>
+                <div className='menu-icon' onClick={toggleDrawer}>
                     <IoMenu style={{ color: "#260b01" }} />
                 </div>
                 <Drawer isOpen={isDrawerOpen} toggleDrawer={toggleDrawer} img={logo} />
