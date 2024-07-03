@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
 }
-.scrolled { 
+.scrolled {
   box-shadow: 0 2px 4px rgba(112, 108, 108, 0.1);
   transition: background-color 0.3s ease;
 }
@@ -14,12 +14,11 @@
   background-color: #fcb69f;
   justify-content: space-between;
   padding: 20px 30px 14px 30px;
-  color: #260b01; 
+  color: #260b01;
   width: 100%;
   z-index: 2;
   position: fixed;
   transition: background-color 0.3s ease;
-  
 }
 
 /* contenedor de iconos */
@@ -53,9 +52,12 @@
   background-color: #fcb69f;
 }
 
-.efecto {  
-  margin-top: 2px; 
+.efecto {
+  margin-top: 2px;
   padding-top: 80px;
+}
+.menu-icon {
+  visibility: hidden;
 }
 
 /* --------------------------------------- */
@@ -82,7 +84,6 @@
   .container {
     height: auto;
   }
-  
 }
 
 @media screen and (max-width: 480px) {
@@ -91,26 +92,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
- 
-  .container .logo{
-    visibility: hidden;
-    height: 0;
+
+  .contHeader .nav {
+    display: none;
   }
-  .container .nav {
+
+  .menu-icon {
+    display: block;
+    visibility: visible;
+  }
+
+  .nav.open {
+    display: block;
+    position: absolute;
+    top: 60px; /* ajusta según la posición de tu header */
+    right: 0;
+    background-color: white; /* o el color deseado */
+    width: 100%; /* ajusta según sea necesario */
+  }
+  .container .nav li .li__icono {
+    visibility: visible;
+    color: #260b01;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 0px;
-    margin: 10px 0px 15px 0px;
   }
-  .container .nav li {
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-  }
-  .container .idioma .idioma_icn {
-    margin-bottom: 5px;
+  .container .logo {
+    width: 180px;
   }
 }

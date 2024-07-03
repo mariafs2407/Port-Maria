@@ -1,22 +1,30 @@
 {
-    "menu.Home": "Inicio",
-    "menu.About": "Sobre mí",
-    "menu.Skills": "Habilidades",
-    "menu.Projects": "Proyectos",
-    "About.Titulo": "Soy {name},",
-    "About.Contenido": "Recién graduada de la carrera de Desarrollo de Software. Durante mi tiempo en la institución, he trabajado en pequeños proyectos Full Stack tanto dentro de mi instituto como de forma independiente. Me caracterizo por ser una persona organizada, responsable y creativa. Poseo una fuerte pasión por aprender nuevas tecnologías y enfrentar nuevos desafíos en el campo del desarrollo.",
-    "Skills.Titulo": "Habilidades",
-    "Projects.Titulo": "Proyectos",
-    "Projects.Boton": "Ver más",
-    "Projects1.Titulo": "Página de criptomonedas",
-    "Projects1.Contenido": "Proyecto creado con React , css y HTML. Integra API de criptomonedas.",
-    "Projects2.Titulo": "Página de Rick y morty",
-    "Projects2.Contenido": "Proyecto creado con React, CSS y HTML. Además, integra la API de Rick y Morty.",
-    "Projects3.Titulo": "CRUD escritorio",
-    "Projects3.Contenido": "Proyecto creado con lenguaje Java y MVC, con la integración de una base de datos MySQL.",
-    "Projects4.Titulo": "Página Web",
-    "Projects4.Contenido": "Proyecto de adopción de perros en albergues, realizado con React,HTML y css.",
-    "Projects5.Titulo": "Plataforma de gestión de inventario",
-    "Projects5.Contenido": "Proyecto colaborativo con REACT, Bootstrap y animaciones con Lottie para una pizzería.",
-    "Footer.Derechos": "Todos los derechos reservados"
+  "menu.Home": "Inicio",
+  "menu.About": "Sobre mí",
+  "menu.Skills": "Habilidades",
+  "menu.Projects": "Proyectos",
+
+  "About.Titulo": "Soy {name},",
+  "About.Contenido": "Recién graduada de la carrera de Desarrollo de Software. Durante mi tiempo en la institución, he trabajado en pequeños proyectos Full Stack tanto dentro de mi instituto como de forma independiente. Me caracterizo por ser una persona organizada, responsable y creativa. Poseo una fuerte pasión por aprender nuevas tecnologías y enfrentar nuevos desafíos en el campo del desarrollo.",
+
+  "Skills.Titulo": "Habilidades",
+  "Projects.Titulo": "Proyectos",
+  "Projects.Boton": "Ver más",
+
+  "Projects1.Titulo": "Productos para mascota",
+  "Projects1.Contenido": "Pagina creado con React,tailwind, typescript.",
+
+  "Projects2.Titulo": "Página de Rick y morty",
+  "Projects2.Contenido": "Proyecto creado con React, CSS y HTML. Además, integra la API de Rick y Morty.",
+
+  "Projects3.Titulo": "CRUD escritorio",
+  "Projects3.Contenido": "Proyecto creado con lenguaje Java y MVC, con la integración de una base de datos MySQL.",
+
+  "Projects4.Titulo": "Página Web",
+  "Projects4.Contenido": "Proyecto de adopción de perros en albergues, realizado con React,HTML y css.",
+
+  "Projects5.Titulo": "Plataforma de gestión de inventario",
+  "Projects5.Contenido": "Proyecto colaborativo con REACT, Bootstrap y animaciones con Lottie para una pizzería.",
+
+  "Footer.Derechos": "Todos los derechos reservados"
 }

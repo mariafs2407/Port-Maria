@@ -26,7 +26,7 @@ const Projects = () => {
                             <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects1.Titulo"
-                                    defaultMessage="Página en progreso"                                    
+                                    defaultMessage="Página en progreso"
                                 />
                             </h1>
                             <div className="card__body ">
@@ -36,11 +36,11 @@ const Projects = () => {
                                 />
                             </div>
                             <a className='button texto'
-                                href='https://react-coin-cap.vercel.app/'
+                                href='https://pet-shop-eight-alpha.vercel.app/'
                                 target="_blank">
                                 <FormattedMessage
                                     id="Projects.Boton"
-                                    defaultMessage="Ver más"                                    
+                                    defaultMessage="Ver más"
                                 />
                             </a>
                         </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                             <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects2.Titulo"
-                                    defaultMessage="Página en proceso"                                    
+                                    defaultMessage="Página en proceso"
                                 />
                             </h1>
                             <div className="card__body ">
@@ -76,7 +76,7 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p3} alt="" />
                         <div className='capa'>
-                            <h1  className="letraMediana">
+                            <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects3.Titulo"
                                     defaultMessage="Página en proceso"
@@ -103,7 +103,7 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={p4} alt="" />
                         <div className='capa'>
-                            <h1  className="letraMediana">
+                            <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects4.Titulo"
                                     defaultMessage="Página en proceso"
@@ -130,7 +130,7 @@ const Projects = () => {
                     <div className='figure'>
                         <img src={img5} alt="" />
                         <div className='capa'>
-                            <h1  className="letraMediana">
+                            <h1 className="letraMediana">
                                 <FormattedMessage
                                     id="Projects5.Titulo"
                                     defaultMessage="Página en proceso"

@@ -1,20 +1,24 @@
 import React from 'react';
 import './Skills.css';
-import css from '../assets/skills/css.png';
-import html from '../assets/skills/html.png';
-import git from '../assets/skills/git.png';
-import github from '../assets/skills/github.png';
-import react from '../assets/skills/react.png';
-import reactnat from '../assets/skills/react-native.png';
-import bosp from '../assets/skills/bootstrap.png';
-import js from '../assets/skills/js.png';
 import { FormattedMessage } from 'react-intl';
 //importando iconos
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaBootstrap } from "react-icons/fa";
+import { RiReactjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa6";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoHtml5 } from "react-icons/io5";
+import { FaPhp } from "react-icons/fa6";
+import { BiLogoJava } from "react-icons/bi";
+import { FaDatabase } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { BiLogoTypescript } from "react-icons/bi";
 import {
     faGitAlt, faGithub, faCss3Alt,
     faHtml5, faReact, faBootstrap,
-    faJs, faJava, faPhp 
+    faJs, faJava, faPhp
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -34,51 +38,60 @@ const Skills = () => {
                 </h1>
                 <div className='container_skills_iconos'>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faHtml5} style={{ color: "#b65520", }} />
+                        <IoLogoHtml5 className="img" style={{ color: "#b65520", }} />
                         <h1 className='texto'>HTML</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faCss3Alt} style={{ color: "#1f3356", }} />
+                        <FaCss3Alt className="img" style={{ color: "#1f3356", }} />
                         <h1 className='texto'>CSS</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faGitAlt} style={{ color: "#e94b07", }} />
+                        <FaGitAlt className="img" style={{ color: "#e94b07", }} />
                         <h1 className='texto'>GIT</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faGithub} style={{ color: "#220231", }} />
+                        <FaGithub className="img" style={{ color: "#220231", }} />
                         <h1 className='texto'>GITHUB</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faReact} style={{ color: "#2d68cd", }} />
+                        <RiReactjsFill className="img" style={{ color: "#2d68cd", }} />
                         <h1 className='texto'>REACT</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faReact} style={{ color: "#37a9b9", }} />
+                        <RiReactjsFill className="img" style={{ color: "#37a9b9", }} />
                         <h1 className='texto'>REACT NATIVE</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faBootstrap} style={{ color: "#563a98", }} />
+                        <FaBootstrap className="img" style={{ color: "#563a98", }} />
                         <h1 className='texto'>BOOSTRAP</h1>
+                    </div>
+                    <div className='caja'>
+                        <RiTailwindCssFill className="img" style={{ color: "#37a9b9", }} />
+                        <h1 className='texto'>Tailwind</h1>
                     </div>
                     <div className='caja'>
                         <FontAwesomeIcon className="img" icon={faJs} style={{ color: "#c9af2c", }} />
                         <h1 className='texto'>JavaScript</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faPhp} style={{ color: "#474A8A", }} />
-                        <h1 className='texto'>PhP</h1>
-                    </div>                   
+                        <BiLogoTypescript className="img" style={{ color: "#2d68cd", }} />
+                        <h1 className='texto'>Typescript</h1>
+                    </div>
+
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faJava} style={{ color: "#770b03", }} />
+                        <FaPhp className="img" style={{ color: "#474A8A", }} />
+                        <h1 className='texto'>PhP</h1>
+                    </div>
+                    <div className='caja'>
+                        <BiLogoJava className="img" style={{ color: "#770b03", }} />
                         <h1 className='texto'>JAVA</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faDatabase} style={{ color: "#26282b", }} />
+                        <FaDatabase className="img" style={{ color: "#26282b", }} />
                         <h1 className='texto'>SQL Server</h1>
                     </div>
                     <div className='caja'>
-                        <FontAwesomeIcon className="img" icon={faDatabase} style={{ color: "#00758F", }} />
+                        <GrMysql className="img" style={{ color: "#00758F", }} />
                         <h1 className='texto'>MySQL</h1>
                     </div>
                 </div>

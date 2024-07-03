@@ -1,30 +1,30 @@
 {
-    "menu.Home":"Home",
-    "menu.About":"About",
-    "menu.Skills":"Skills",
-    "menu.Projects":"Projects",
+  "menu.Home": "Home",
+  "menu.About": "About",
+  "menu.Skills": "Skills",
+  "menu.Projects": "Projects",
 
-    "About.Titulo": "I'm {name},",
-    "About.Contenido":"Recently graduated from the Software Development program. During my time at the institution, I have worked on small Full Stack projects both within my institute and independently. I am characterized by being an organized, responsible, and creative individual. I have a strong passion for learning new technologies and taking on new challenges in the field of development.",
+  "About.Titulo": "I'm {name},",
+  "About.Contenido": "Recently graduated from the Software Development program. During my time at the institution, I have worked on small Full Stack projects both within my institute and independently. I am characterized by being an organized, responsible, and creative individual. I have a strong passion for learning new technologies and taking on new challenges in the field of development.",
 
-    "Skills.Titulo":"Skills",
-    "Projects.Boton": "See more",
+  "Skills.Titulo": "Skills",
+  "Projects.Boton": "See more",
 
-    "Projects.Titulo":"Projects",
-    "Projects1.Titulo":"Cryptocurrency page",
-    "Projects1.Contenido":"Project developed using React, CSS, and HTML. Integrates cryptocurrency API.",
-    
-    "Projects2.Titulo":"Rick and morty page",
-    "Projects2.Contenido":"Project created with React, CSS, and HTML. Additionally, it integrates the Rick and Morty API.",
+  "Projects.Titulo": "Projects",
+  "Projects1.Titulo": "Pet products",
+  "Projects1.Contenido": "Page created with React, tailwind, typescript.",
 
-    "Projects3.Titulo":"CRUD desk",    
-    "Projects3.Contenido":"Project created using Java language and MVC, with integration of a MySQL database.",
+  "Projects2.Titulo": "Rick and morty page",
+  "Projects2.Contenido": "Project created with React, CSS, and HTML. Additionally, it integrates the Rick and Morty API.",
 
-    "Projects4.Titulo":"Web page",    
-    "Projects4.Contenido":"Dog adoption project in shelters, made with React, HTML and css.",
+  "Projects3.Titulo": "CRUD desk",
+  "Projects3.Contenido": "Project created using Java language and MVC, with integration of a MySQL database.",
 
-    "Projects5.Titulo":"Inventory management platform",    
-    "Projects5.Contenido":"Collaborative project with REACT, Bootstrap and animations with Lottie for a pizzeria.",
-    
-    "Footer.Derechos": "All rights reserved"
+  "Projects4.Titulo": "Web page",
+  "Projects4.Contenido": "Dog adoption project in shelters, made with React, HTML and css.",
+
+  "Projects5.Titulo": "Inventory management platform",
+  "Projects5.Contenido": "Collaborative project with REACT, Bootstrap and animations with Lottie for a pizzeria.",
+
+  "Footer.Derechos": "All rights reserved"
 }
